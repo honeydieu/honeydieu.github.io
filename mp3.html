@@ -316,7 +316,8 @@ body {
 </style>
 </head>
 <body>
-// <div id="app-cover">
+//
+<div id="app-cover">
   <div id="bg-artwork"></div>
   <div id="bg-layer"></div>
   <div id="player">
@@ -360,7 +361,7 @@ body {
     </div>
   </div>
 </div>
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script>
 // $(function () {
   var playerTrack = $("#player-track"),
@@ -393,21 +394,17 @@ body {
     nTime = 0,
     buffInterval = null,
     tFlag = false,
-    albums = [
-      "Morena",
-      "Canoue IV",
-      "U",
-    ],
+    albums = ["Morena", "Canoue IV", "U"],
     trackNames = [
       "Mariana Nolasco - Morena",
       "Haruka Shimotsuki - 氷の魔女は眠る",
-      "Millennium Parade - U",
+      "Millennium Parade - U"
     ],
     albumArtworks = ["_1", "_2", "_3"],
     trackUrl = [
       "https://github.com/honeydieu/MP3-Player/raw/main/morena.mp3",
       "https://github.com/honeydieu/MP3-Player/raw/main/canoue.mp3",
-      "https://github.com/honeydieu/MP3-Player/raw/main/u.mp3",
+      "https://github.com/honeydieu/MP3-Player/raw/main/u.mp3"
     ],
     playPreviousTrackButton = $("#play-previous"),
     playNextTrackButton = $("#play-next"),
